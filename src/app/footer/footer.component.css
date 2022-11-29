@@ -1,3 +1,25 @@
 .style{
     text-align:center !important;
 }
+
+.pading-style{
+    min-height: auto !important;
+    -moz-align-items: top;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+    /* text-align: center !important; */
+    padding: 0 !important;
+    margin: 0 auto !important;
+}
+
+.footer-position{
+    /* width: 90%; */
+    text-align: center !important;
+    margin: 0 auto !important;
+    justify-content: center !important;
+}
+
+.ppp{
+    padding-top: 5em !important;
+}
