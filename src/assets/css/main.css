@@ -2515,7 +2515,7 @@ input[type="radio"] {
 	margin-right: -2rem;
 	opacity: 0;
 	width: 1rem;
-	z-index: -1;
+	/* z-index: -1; */
 }
 
 input[type="checkbox"]+label,
@@ -3330,7 +3330,7 @@ table.alt tbody tr td {
 .pagination a:hover {
 	color: #18bfef !important;
 	border-color: #18bfef;
-	z-index: 1;
+	/* z-index: 1; */
 }
 
 .pagination a:hover+a,
@@ -3354,7 +3354,7 @@ table.alt tbody tr td {
 	-ms-transition: opacity 0.5s ease;
 	transition: opacity 0.5s ease;
 	position: relative;
-	z-index: 1;
+	/* z-index: 1; */
 	overflow: hidden;
 }
 
@@ -3364,12 +3364,13 @@ table.alt tbody tr td {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(270deg, #0000004f, #242f9bc9 105%);
-	background-position: initial;
+	/* linear-gradient(270deg, #0000004f, #242f9bc9 105%); */
+	background-image: linear-gradient(270deg, #0000004f, #242f9bc9 105%),url('../images/services-one-1.jpg');
+	background-position: top center;
 	background-size: 100%;
 	background-repeat: repeat, no-repeat, no-repeat;
 	background-attachment: scroll;
-	z-index: -1;
+	/* z-index: -1; */
 }
 
 #wrapper>.bg.fixed {
@@ -3439,7 +3440,7 @@ body.is-preload #wrapper.fade-in:before {
 	position: relative;
 	cursor: default;
 	text-align: center;
-	z-index: 1;
+	/* z-index: 1; */
 	min-height: 100vh;
 }
 
@@ -3656,7 +3657,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	padding-bottom: 8rem;
 	position: relative;
 	text-align: center;
-	z-index: 2;
+	/* z-index: 2; */
 }
 
 #header input,
@@ -3769,7 +3770,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	position: relative;
 	width: calc(100% - 4rem);
 	max-width: 72rem;
-	z-index: 2;
+	/* z-index: 2; */
 }
 
 #nav ul.divided li {
@@ -3914,7 +3915,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	margin: 0 auto;
 	width: calc(100% - 4rem);
 	max-width: 72rem;
-	z-index: 2;
+	/* z-index: 2; */
 }
 
 #main>* {
@@ -4115,7 +4116,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	margin: 0 auto;
 	width: calc(100% - 4rem);
 	max-width: 72rem;
-	z-index: 2;
+	/* z-index: 2; */
 }
 
 #footer input,
@@ -4334,7 +4335,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #footer .pagination a:hover {
 	color: #18bfef !important;
 	border-color: #18bfef;
-	z-index: 1;
+	/* z-index: 1; */
 }
 
 #footer .pagination a:hover+a,
@@ -4562,7 +4563,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	margin: 4rem auto 8rem auto;
 	width: calc(100% - 4rem);
 	max-width: 72rem;
-	z-index: 2;
+	/* z-index: 2; */
 }
 
 #copyright input,
@@ -4676,7 +4677,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	letter-spacing: 0.075em;
 	padding: 0.375rem 1.25rem;
 	text-transform: uppercase;
-	z-index: 10001;
+	/* z-index: 10001; */
 }
 
 #navPanelToggle:before {
@@ -4747,7 +4748,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	top: 0;
 	visibility: hidden;
 	width: 20rem;
-	z-index: 10002;
+	/* z-index: 10002; */
 }
 
 #navPanel .links {
