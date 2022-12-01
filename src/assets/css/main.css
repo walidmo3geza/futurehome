@@ -3364,7 +3364,6 @@ table.alt tbody tr td {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	/* linear-gradient(270deg, #0000004f, #242f9bc9 105%); */
 	background-image: linear-gradient(270deg, #0000004f, #242f9bc9 105%),url('../images/services-one-1.jpg');
 	background-position: top center;
 	background-size: 100%;
